@@ -8,6 +8,7 @@ on:
       - master
       - stable
       - v*
+      - **
 
 concurrency:
   group: test-${{ github.ref }}
